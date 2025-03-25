@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: tcb_mr_engine_backend
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://login.microsoftonline.com/d64dc2a0-66f1-44ef-8594-295e40eb7e16/discovery/v2.0/keys
+logging:
+  level:
+    org.springframework.security: trace
